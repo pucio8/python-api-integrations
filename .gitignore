@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+credentials
+credentials.*
+rtoken
+rtoken.*
+*token*
+*token*.json
+*.secret.json
+*.secrets.json
+*.key.json
+*.credentials.json
+
+# Custom sensitive files
+drive_notes.txt    
+google_drive
+cat_facts
